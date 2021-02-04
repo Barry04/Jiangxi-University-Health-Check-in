@@ -20,7 +20,7 @@ $school_id = "4136010406";
 $sid = "18204221";//学号
 
 //请参考 http://sc.ftqq.com/3.version
-$SCKEY = "";//可选的SCKEY
+$SCKEY = "SCU158064T23c2b353aeb61a9524087da4d1dfbc33601b6e3e281e8";//可选的SCKEY
 
 $cookie_jar = __DIR__ . "/cookies/{$sid}.cookie";
 file_put_contents($cookie_jar, "");
