@@ -14,10 +14,10 @@
 
 //学校代码
 //请参考 README.md、江西省100所高校.csv 或 江西省100所高校.xlsx
-$school_id = "4136010403";
+$school_id = "4136010406";
 
 //请输入你的完整学号，不是两位数的
-$sid = "1008611";//学号
+$sid = "18204221";//学号
 
 //请参考 http://sc.ftqq.com/3.version
 $SCKEY = "";//可选的SCKEY
@@ -38,7 +38,7 @@ $res = curlPost("https://fxgl.jx.edu.cn/{$school_id}/studentQd/saveStu", $cookie
     //那么 street 参数就应该为  东江源大道1号寻乌县人民政府
     //sfby 参数：1 表示不是毕业班学生，0：表示时毕业班学生
     build_sign_data(
-        "江西省", "赣州市", "寻乌县", "", 1, 115.64852, 24.95513
+        "江西省", "上饶市", "弋阳县", "", 1, 115.64852, 24.95513
     ));
 
 //将 json 解析成数组(Array)
