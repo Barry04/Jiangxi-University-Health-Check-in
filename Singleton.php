@@ -38,7 +38,7 @@ $res = curlPost("https://fxgl.jx.edu.cn/{$school_id}/studentQd/saveStu", $cookie
     //那么 street 参数就应该为  东江源大道1号寻乌县人民政府
     //sfby 参数：1 表示不是毕业班学生，0：表示时毕业班学生
     build_sign_data(
-        "江西省", "上饶市", "弋阳县", "", 1, 115.64852, 24.95513
+        "江西省", "上饶市", "弋阳县", "", 1, 117.43, 28.42
     ));
 
 //将 json 解析成数组(Array)
